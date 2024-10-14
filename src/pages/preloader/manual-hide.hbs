@@ -1,0 +1,51 @@
+{{#[../../layout/layout] htmlWebpackPlugin}}
+
+<h1 class="m-0">Preloader</h1>
+
+<p>
+  <a href="https://antonbobrov.github.io/vevet/classes/Preloader.html" target="_blank" rel="noopener noreferrer">Docs</a>
+  /
+  <a href="https://github.com/antonbobrov/vevet-demo/blob/main/src/pages/preloader/index.ts" target="_blank" rel="noopener noreferrer">Source Code</a>
+</p>
+
+<p class="lead">Page preloader component, which manages the visibility of a preloader during page loading. It can hide the preloader after the page is fully loaded and trigger related events.</p>
+
+<p class="lead"><b>Requires styles. See the source code.</b></p>
+
+<ul class="list-group">
+  <li class="list-group-item">
+    <a href="{{baseUrl}}preloader/index.html">Default behavior</a>
+  </li>
+  <li class="list-group-item">
+    <a href="{{baseUrl}}preloader/manual-hide.html">Manual hide</a>
+  </li>
+</ul>
+
+<ul class="list-group my-3">
+  <li class="list-group-item"><img src="https://picsum.photos/200/100" alt="image"></li>
+  <li class="list-group-item"><img src="https://picsum.photos/200/101" alt="image"></li>
+  <li class="list-group-item"><img src="https://picsum.photos/200/102" alt="image"></li>
+  <li class="list-group-item"><img src="https://picsum.photos/200/103" alt="image"></li>
+</ul>
+
+<div class="v-preloader" id="v-preloader">
+  Preloader with manual hide
+
+  <br />
+
+  <button type="button" class="btn btn-primary" id="v-preloader-hide" disabled>Hide</button>
+</div>
+
+<style>
+  .v-preloader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 2rem;
+    color: #fff;
+  }
+</style>
+
+{{/[../../layout/layout]}} 

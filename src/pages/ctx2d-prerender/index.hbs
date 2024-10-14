@@ -1,0 +1,45 @@
+{{#[../../layout/layout] htmlWebpackPlugin}}
+
+<h1 class="m-0">Ctx2DPrerender</h1>
+
+<p>
+  <a href="https://antonbobrov.github.io/vevet/classes/Ctx2DPrerender.html" target="_blank" rel="noopener noreferrer">Docs</a>
+  /
+  <a href="https://github.com/antonbobrov/vevet-demo/blob/main/src/pages/ctx2d-prerender/index.ts" target="_blank" rel="noopener noreferrer">Source Code</a>
+</p>
+
+<p class="lead">The Ctx2DPrerender class allows pre-rendering of media (such as images or video) onto a canvas. This can be useful for reducing payloads by preparing the media for further use in a more optimized form.</p>
+
+<hr />
+
+<p class="lead">Position Rule:</p>
+
+<div class="d-flex flex-row justify-content-start align-items-center flex-wrap gap-1">
+  <button type="button" class="btn btn-primary js-position" data-position="cover">Cover</button>
+  
+  <button type="button" class="btn btn-primary js-position" data-position="contain">Contain</button>
+  
+  <button type="button" class="btn btn-primary js-position" data-position="bottom-left">bottom-left</button>
+  
+  <button type="button" class="btn btn-primary js-position" data-position="bottom-right">bottom-right</button>
+  
+  <button type="button" class="btn btn-primary js-position" data-position="center">center</button>
+  
+  <button type="button" class="btn btn-primary js-position" data-position="top-left">top-left</button>
+  
+  <button type="button" class="btn btn-primary js-position" data-position="top-right">top-right</button>
+</div>
+
+<div id="ctx-container" class="my-3"></div>
+
+<style>
+  #ctx-container {
+    position: relative;
+    width: 300px;
+    max-width: 100%; 
+    aspect-ratio: 1 / 1;
+    background-color: #eee;
+  }
+</style>
+
+{{/[../../layout/layout]}} 

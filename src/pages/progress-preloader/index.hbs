@@ -1,0 +1,53 @@
+{{#[../../layout/layout] htmlWebpackPlugin}}
+
+<h1 class="m-0">ProgressPreloader</h1>
+
+<p>
+  <a href="https://antonbobrov.github.io/vevet/classes/ProgressPreloader.html" target="_blank" rel="noopener noreferrer">Docs</a>
+  /
+  <a href="https://github.com/antonbobrov/vevet-demo/blob/main/src/pages/progress-preloader/index.ts" target="_blank" rel="noopener noreferrer">Source Code</a>
+</p>
+
+<p class="lead">Page preloader that calculates the loading progress of page resources such as images, videos, and custom elements. Provides smooth progress calculation using an animation frame and optionally a timeline for forced completion.</p>
+
+<p class="lead"><b>Requires styles. See the source code.</b></p>
+
+<ul class="list-group">
+  <li class="list-group-item">
+    <a href="{{baseUrl}}progress-preloader/index.html">Default behavior</a>
+  </li>
+  <li class="list-group-item">
+    <a href="{{baseUrl}}progress-preloader/manual-hide.html">With manual hide</a>
+  </li>
+  <li class="list-group-item">
+    <a href="{{baseUrl}}progress-preloader/custom-resource.html">With custom resources</a>
+  </li>
+  <li class="list-group-item">
+    <a href="{{baseUrl}}progress-preloader/weighty-custom-resource.html">With weighty custom resources</a>
+  </li>
+</ul>
+
+<ul class="list-group my-3">
+  <li class="list-group-item"><img src="https://picsum.photos/200/100" alt="image"></li>
+  <li class="list-group-item"><img src="https://picsum.photos/200/101" alt="image" loading="lazy"></li>
+  <li class="list-group-item"><img src="https://picsum.photos/200/102" alt="image"></li>
+  <li class="list-group-item"><img src="https://picsum.photos/200/103" alt="image" class="js-preload-ignore"></li>
+</ul>
+
+<div class="v-preloader" id="v-preloader">
+  <div id="percent">00%</div>
+</div>
+
+<style>
+  .v-preloader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 2rem;
+    color: #fff;
+  }
+</style>
+
+{{/[../../layout/layout]}} 
