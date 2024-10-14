@@ -1,0 +1,32 @@
+{{#[../../layout/layout] htmlWebpackPlugin}}
+
+<h1 class="m-0">CustomCursor</h1>
+
+<p>
+  <a href="https://antonbobrov.github.io/vevet/classes/CustomCursor.html" target="_blank" rel="noopener noreferrer">Docs</a>
+  /
+  <a href="https://github.com/antonbobrov/vevet-demo/blob/main/src/pages/custom-cursor/index.ts" target="_blank" rel="noopener noreferrer">Source Code</a>
+</p>
+
+<p class="lead">Creates a smooth custom cursor that replaces the native cursor and follows mouse movements with smoothing and animations. The cursor's appearance and behavior can be customized, and it supports interacting with hoverable elements.</p>
+
+<p class="lead"><b>Requires styles. See the source code.</b></p>
+
+<hr class="my-4">
+
+<div id="cursor-container">
+  <button id="cursor-sticky-autosize" type="button" class="btn btn-dark">Hover to see sticky behavior</button>
+  
+  <button id="cursor-with-size" type="button" class="btn btn-dark">Or a defined cursor size</button>
+</div>
+
+<style>
+  .v-custom-cursor__inner {
+    border-radius: 6px;
+    background-color: rgba(67, 129, 216, 0.2);
+    border: 2px solid rgba(56, 154, 186, 1);
+    opacity: 1;
+  }
+</style>
+  
+{{/[../../layout/layout]}} 

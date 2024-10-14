@@ -1,0 +1,51 @@
+{{#[../../layout/layout] htmlWebpackPlugin}}
+
+<h1 class="m-0">SplitText</h1>
+
+<p>
+  <a href="https://antonbobrov.github.io/vevet/classes/SplitText.html" target="_blank" rel="noopener noreferrer">Docs</a>
+  /
+  <a href="https://github.com/antonbobrov/vevet-demo/blob/main/src/pages/split-text/index.ts" target="_blank" rel="noopener noreferrer">Source Code</a>
+</p>
+
+<p class="lead">SplitText is a component that splits your text into lines, words, and letters so that you can animate them. <br />It supports auto-resizing for lines and styled content when using HTML inside your text.</p>
+<p class="lead">Inspired by GSAP's SplitText plugin and SplitType.</p>
+<p class="lead">The example below is animated via <a href="https://animejs.com/" target="_blank" rel="noopener noreferrer">anime.js</a></p>
+
+<hr class="my-4" />
+
+<div>
+  <h2 class="m-0">Only words</h2>
+
+  <div class="py-3 d-flex flex-row justify-content-start align-items-center gap-1">
+    <button id="animate-text-words" type="button" class="btn btn-primary">Animate</button>
+  </div>
+
+  <h4 id="text-words" style="max-width: 600px"> <b>Lorem</b>ipsum dolor <b style="color: red;">sit</b> amet,&nbsp;consectetur adipiscing elit, <span style="color: blue;">sed <b><i>d</i>o</b></span> eius<b>m<i>od</i></b> tempor <i>incididunt ut</i> labore et dolore magna aliqua. <br /> <br /> <button type="button" style="font: inherit; background-color: #ccc;">Ut enim</button> ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </h4>
+</div>
+
+<hr class="my-4" />
+
+<div>
+  <h2 class="m-0">With Letters</h2>
+
+  <div class="py-3 d-flex flex-row justify-content-start align-items-center gap-1">
+    <button id="animate-text-letters" type="button" class="btn btn-primary">Animate</button>
+  </div>
+
+  <h4 id="text-letters" style="max-width: 600px"> <b>Lorem</b>ipsum dolor <b style="color: red;">sit</b> amet,&nbsp;consectetur adipiscing elit, <span style="color: blue;">sed <b><i>d</i>o</b></span> eius<b>m<i>od</i></b> tempor <i>incididunt ut</i> labore et dolore magna aliqua. <br /> <br /> <button type="button" style="font: inherit; background-color: #ccc;">Ut enim</button> ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </h4>
+</div>
+
+<hr class="my-4" />
+
+<div>
+  <h2 class="m-0">With Lines</h2>
+
+  <div class="py-3 d-flex flex-row justify-content-start align-items-center gap-1">
+    <button id="animate-text-lines" type="button" class="btn btn-primary">Animate</button>
+  </div>
+
+  <h4 id="text-lines" style="max-width: 600px"> <b>Lorem</b>ipsum dolor <b style="color: red;">sit</b> amet,&nbsp;consectetur adipiscing elit, <span style="color: blue;">sed <b><i>d</i>o</b></span> eius<b>m<i>od</i></b> tempor <i>incididunt ut</i> labore et dolore magna aliqua. <br /> <br /> <button type="button" style="font: inherit; background-color: #ccc;">Ut enim</button> ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </h4>
+</div>
+
+{{/[../../layout/layout]}} 
