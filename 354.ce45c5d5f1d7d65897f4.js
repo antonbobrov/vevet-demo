@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapp=self.webpackChunkapp||[]).push([[354],{354:function(e,n,t){t.r(n);var a=t(750),c=t(318);new a.$({container:window,canAutoHide:!1});var o=document.getElementById("scrollable"),r=document.getElementById("scrollable-parent");new a.$({container:o,domParent:r,canAutoHide:!1});var l=new c.F({container:"#custom-scroll"});new a.$({container:l})}}]);
